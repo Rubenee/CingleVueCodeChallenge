@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gmail",
+    "description": "",
+    "name": "Gmail",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "gmail;i-compose-a-mail",
+        "description": "",
+        "name": "I compose a mail",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I am logged into my gmail account",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I click on compose button",
+            "keyword": "When ",
+            "line": 5,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I compose a mail",
+            "keyword": "And ",
+            "line": 6,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I close the mail",
+            "keyword": "And ",
+            "line": 7,
+            "match": {}
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "the mail should be saved in drafts",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "gmail.feature"
+  }
+]
